@@ -21,7 +21,7 @@ a:hover {
   color: #000;
 }
 
-h1, h2, h3, h4, h5, h6, .font-heading {
+h1, h2, h3,h4,h5, h6, .font-heading {
   font-family: "Poppins", sans-serif;
   color: #000;
 }
@@ -30,7 +30,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   z-index: 2;
   position: relative;
 }
-
+.home{
+  margin-top:-80px;
+}
 .text-black {
   color: #000 !important;
 }
@@ -641,7 +643,9 @@ section {
 .navbar li {
   position: relative;
 }
-
+.logo img{
+  width: 100px;
+}
 .navbar a {
   display: flex;
   align-items: center;
@@ -1078,12 +1082,29 @@ section {
   color: #111;
 }
 
+@media screen and (max-width: 520px){
+  .team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+  }
+ }
+
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
   color: #b4aca8;
 }
+@media screen and (max-width: 600px){
+  .team .member .member-info span {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    color: #b4aca8;
+  }
+ }
 
 .team .member .member-info p {
   font-style: italic;
@@ -1095,3 +1116,4 @@ section {
 .team .member:hover .social {
   opacity: 1;
 }
+
