@@ -962,7 +962,7 @@ section {
 @media screen and (max-width: 380px) {
   .hero-section .iphone-wrap .phone-1 {
     width: 220px;
-    padding-left: 10px;
+    padding-left: 20px;
   }
 }
 @media screen and (max-width: 380px) {
