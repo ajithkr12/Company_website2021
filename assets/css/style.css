@@ -959,7 +959,17 @@ section {
     margin-left: 100px;
   }
 }
-
+@media screen and (max-width: 380px) {
+  .hero-section .iphone-wrap .phone-1 {
+    width: 220px;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .hero-section .iphone-wrap .phone-2 {
+    width: 220px;
+  }
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
