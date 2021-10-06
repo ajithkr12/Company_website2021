@@ -782,7 +782,7 @@ section {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  width: 95%;
+  width: 90%;
   height: 30%;
   top: 55px;
   right: 15px;
