@@ -599,7 +599,7 @@ section {
   border-bottom: 3px solid #fff;
 }
 
-.navbar .dropdown ul {
+/* .navbar .dropdown ul {
   display: block;
   position: absolute;
   left: 14px;
@@ -613,27 +613,28 @@ section {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
-}
+} */
 
-.navbar .dropdown ul li {
+/* .navbar .dropdown ul li {
   min-width: 200px;
-}
+} */
 
-.navbar .dropdown ul a {
+/* .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 15px;
   color: #101c36;
-}
+} */
 
-.navbar .dropdown ul a i {
+/* .navbar .dropdown ul a i {
   font-size: 12px;
-}
+} */
 
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+/* .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #2d71a1;
-}
+  
+} */
 
-.navbar .dropdown:hover > ul {
+/* .navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -650,16 +651,16 @@ section {
   top: 0;
   left: 100%;
   visibility: visible;
-}
+} */
 
-@media (max-width: 1366px) {
+/* @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
-}
+} */
 
 /**
 * Mobile Navigation 
@@ -726,7 +727,7 @@ section {
   color: #2d71a1;
 }
 
-.navbar-mobile .dropdown ul {
+/* .navbar-mobile .dropdown ul {
   position: static;
   display: none;
   margin: 10px 20px;
@@ -756,7 +757,7 @@ section {
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
-}
+} */
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -764,6 +765,7 @@ section {
 .hero-section {
   background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);
   position: relative;
+  
 }
 
 .hero-section .wave {
@@ -785,12 +787,14 @@ section {
 }
 
 .hero-section, .hero-section > .container > .row {
+  /* height: 100vh;
+  min-height: 880px; */
   height: 100vh;
-  min-height: 880px;
+  min-height: 760px;
 }
 
 .hero-section.inner-page {
-  height: 50vh;
+  height: 60vh;
   min-height: 0;
 }
 
@@ -853,7 +857,7 @@ section {
   top: -50%;
   overflow: hidden;
   left: 0;
-  box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3); */
   border-radius: 30px;
 }
 
@@ -866,7 +870,7 @@ section {
 }
 
 .hero-section .iphone-wrap .phone-2, .hero-section .iphone-wrap .phone-1 {
-  width: 250px;
+  width: 220px;
 }
 
 @media screen and (max-width: 992px) {
