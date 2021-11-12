@@ -1129,10 +1129,9 @@ section {
   text-align: center;
  
 }
-@media (min-width:576px) {
+@media (max-width:576px) {
 .mainheading {
-  /* padding:1rem 0rem; */
-  /* padding: 120px 30px 100px 120px; */
+
   padding: 15%;
 
 }
