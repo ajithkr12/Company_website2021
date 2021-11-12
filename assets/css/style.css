@@ -1123,7 +1123,7 @@ section {
   /* padding:1rem 0rem; */
   /* padding: 120px 30px 100px 120px; */
   padding: 8%;
-  background-image: url("/assets/img/11.png");
+  background: url(../img/11.png);
   width: 100%;
   justify-content: center;
   text-align: center;
