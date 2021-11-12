@@ -1251,6 +1251,17 @@ section {
     height:42px;
   }
 
+
+}
+
+@media (max-width:576px) {
+
+
+  .post-top-meta .author-image{
+
+    padding-left: 46%;
+  }
+
 }
 
 
