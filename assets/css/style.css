@@ -1134,11 +1134,6 @@ section {
     padding: 15%;
   }
 
-  .post-top-meta .author-thumb {
-    width:42px;
-    height:42px;
-  }
-
 }
 a {
   color:#00ab6b;
@@ -1247,6 +1242,18 @@ section {
   width:72px;
   height:72px;
 }
+
+
+@media (max-width:576px) {
+
+  .post-top-meta .author-thumb {
+    width:42px;
+    height:42px;
+  }
+
+}
+
+
 .post-top-meta.authorpage .author-thumb {
   margin-top:40px;
 }
