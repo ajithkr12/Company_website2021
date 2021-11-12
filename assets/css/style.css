@@ -1130,11 +1130,15 @@ section {
  
 }
 @media (max-width:576px) {
-.mainheading {
+  .mainheading {
+    padding: 15%;
+  }
 
-  padding: 15%;
+  .post-top-meta .author-thumb {
+    width:42px;
+    height:42px;
+  }
 
-}
 }
 a {
   color:#00ab6b;
